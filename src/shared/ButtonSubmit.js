@@ -10,16 +10,16 @@ export default function ButtonSubmit({ backgroundcolor, children, width }) {
 
 const ButtonSubmitStyle = styled.button`
   width: ${props => props.width};
-  height: 55px;
+  height: 50px;
   background: ${props => props.backgroundcolor};
   border: none;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 500;
-  color: ${props => (props.backgroundcolor === '#ffffff' ? '#8a8893' : 'white')};
-  font-family: 'Josefin Slab', serif;
+  color: ${props => (props.backgroundcolor === '#ffffff' ? 'black' : 'white')};
+
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
   border-radius: 4px;
-  min-height: 55px;
+  min-height: 50px;
 
   :hover {
     cursor: pointer;

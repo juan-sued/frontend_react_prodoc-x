@@ -31,14 +31,8 @@ const GlobalStyles = createGlobalStyle`
   }
   body {
     line-height: 1;
-
-    background-color: #4158D0;
-background-image: linear-gradient(45deg, #4158D0 0%, #C850C0 29%, #FFCC70 100%);
-
-
- 
-    font-family: 'Josefin Slab', serif;
-  
+    background-color: black; 
+    font-family: 'Poppins', sans-serif;
   }
   ol, ul {
     list-style: none;

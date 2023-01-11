@@ -1,9 +1,18 @@
 import styled from 'styled-components';
 
-export const Logo = styled.img`
-  min-width: 145px;
-  width: 20%;
-  max-width: 200px;
+export const ContainerImg = styled.div`
+  width: 100%;
+  max-height: 400px;
+  margin-bottom: 10px;
+  position: absolute;
+  z-index: 0;
+  right: 0;
+  top: 0px;
+  margin-bottom: 0;
+
+  img {
+    width: 100%;
+  }
 `;
 
 export const ContainerFormClass = styled.div`
@@ -12,10 +21,9 @@ export const ContainerFormClass = styled.div`
   align-items: center;
   justify-content: center;
   width: 100%;
-  margin-top: 15%;
 
   @media screen and (min-width: 413px) {
-    margin-top: 50px;
+    margin-top: 30px;
   }
 
   form {
@@ -34,7 +42,7 @@ export const InputClass = styled.input`
   height: 50px;
 
   border: 1px solid #d4d4d4;
-  font-family: 'Jost', sans-serif;
+  font-family: 'Poppins', sans-serif;
   border-radius: 4px;
   padding-left: 10px;
   background: #ffffff;

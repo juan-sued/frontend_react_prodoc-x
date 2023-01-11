@@ -16,10 +16,11 @@ const FooterStyle = styled.footer`
   justify-content: space-between;
   align-items: center;
   padding: 0 24px 0 24px;
+  background-color: black;
   h2 {
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
-    color: white;
+    color: black;
   }
 `;

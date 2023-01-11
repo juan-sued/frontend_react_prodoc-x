@@ -5,16 +5,17 @@ export default function ButtonOnlyWords({ children }) {
 }
 
 const ButtonOnlyWordsStyle = styled.button`
-  background-color: transparent;
   border: none;
-  color: black;
-  margin: 36px;
-  font-family: 'Jost', sans-serif;
+  color: #0009;
+  margin-bottom: 30px;
+  width: 100%;
+  align-items: center;
   font-style: normal;
   font-weight: 600;
-  font-size: 16px;
-  text-shadow: 0.1em 0.05em 0em transparent;
+  font-size: 14.5px;
+
   margin-top: 15px;
+  background-color: transparent;
   :hover {
     cursor: pointer;
   }
